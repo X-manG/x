@@ -15,7 +15,7 @@ class IELTSCalculator(QWidget):
         self.result_label = QLabel()
 
         layout = QVBoxLayout()
-        layout.addWidget(QLabel("Listening Score:"))
+        layout.addWidget(QLabel("Listening Score:")) ))))
         layout.addWidget(self.listening_input)
         layout.addWidget(QLabel("Reading Score:"))
         layout.addWidget(self.reading_input)
