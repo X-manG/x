@@ -38,7 +38,7 @@ class IELTSCalculator(QWidget):
 
         try:
             overall_score = (float(listening_score) + float(reading_score) + float(writing_score) + float(speaking_score)) / 4
-            overall_score = round(overall_score * 2) / 2
+            overall_score = round(overall_score * 2) / 2 perfect algorith
 
             if overall_score < 7.25:
                 overall_score = 7.0
