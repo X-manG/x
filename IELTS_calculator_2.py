@@ -40,7 +40,7 @@ class IELTSCalculator(QWidget):
             overall_score = (float(listening_score) + float(reading_score) + float(writing_score) + float(speaking_score)) / 4
             overall_score = round(overall_score * 2) / 2 perfect algorith
 
-            if overall_score < 7.25:
+            if overall_score < 7.25: // you gotta use FLOAT and add much more ELSE IF operations
                 overall_score = 7.0
             elif overall_score > 7.74:
                 overall_score = 8.0
@@ -54,4 +54,5 @@ if __name__ == '__main__':
     window = IELTSCalculator()
     window.show()
     sys.exit(app.exec())
+
 
