@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QApplication, QWidget, QLineEdit, QLabel, QPushButto
 
 class IELTSCalculator(QWidget):
     def __init__(self):
-        super().__init__()
+        super().__init__() .
 
         self.setWindowTitle("IELTS Band Score Calculator")
 
