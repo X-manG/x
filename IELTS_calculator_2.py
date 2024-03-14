@@ -49,7 +49,7 @@ class IELTSCalculator(QWidget):
         except ValueError:
             self.result_label.setText("Invalid sub-score")
 
-if __name__ == '__main__':
+if __name__ == '__main__': // confuses newcomers as it also showcasts RUN button
     app = QApplication(sys.argv)
     window = IELTSCalculator()
     window.show()
