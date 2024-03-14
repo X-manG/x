@@ -28,7 +28,7 @@ class IELTSCalculator(QWidget):
 
         self.setLayout(layout)
 
-        self.get_score_button.clicked.connect(self.calculate_score)
+        self.get_score_button.clicked.connect(self.calculate_score) lezzgo
 
     def calculate_score(self):
         listening_score = self.listening_input.text()
