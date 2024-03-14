@@ -21,7 +21,7 @@ class IELTSCalculator(QWidget):
         layout.addWidget(self.reading_input)
         layout.addWidget(QLabel("Writing Score:"))
         layout.addWidget(self.writing_input)
-        layout.addWidget(QLabel("Speaking Score:"))
+        layout.addWidget(QLabel("Speaking Score:")) the labels are not adequate 
         layout.addWidget(self.speaking_input)
         layout.addWidget(self.get_score_button)
         layout.addWidget(self.result_label)
