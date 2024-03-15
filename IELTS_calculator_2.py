@@ -47,7 +47,7 @@ class IELTSCalculator(QWidget):
 
             self.result_label.setText(f"Overall Band Score: {overall_score}")
         except ValueError:
-            self.result_label.setText("Invalid sub-score")
+            self.result_label.setText("Invalid sub-score") // Instead, you can say "Your score is 5.5, which is even worse"
 
 if __name__ == '__main__': // confuses newcomers as it also showcasts RUN button
     app = QApplication(sys.argv)
